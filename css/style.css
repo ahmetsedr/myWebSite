@@ -1,0 +1,101 @@
+* {
+  margin: 0;
+  padding: 0;
+  font-family: "Roboto Mono", monospace;
+  letter-spacing: -0.02em;
+  font-size: 1.09rem;
+  text-align: center;
+  list-style-type: none;
+}
+
+body {
+  background-color: #808080;
+  color: #f5f5f5;
+  margin: 3rem;
+}
+body .container {
+  background-color: #0e0d0d;
+  padding: 3rem;
+  border-radius: 1rem;
+  margin: 2rem;
+}
+body .container #avatar {
+  border: 0.4rem dashed white;
+}
+body .container .containerHeader img {
+  width: 3.4rem;
+  height: 3.4rem;
+}
+body .container h1,
+body .container h2 {
+  margin: 0 0 1.2rem 0;
+}
+body .container p {
+  margin-top: 1rem;
+}
+body .container .headerLink {
+  margin: 1rem;
+}
+body .container .headerLink a {
+  margin: 0.5rem;
+  text-decoration: none;
+  color: white;
+}
+body .container .headerLink a:hover {
+  color: gray;
+  transition: 1s;
+}
+body header img {
+  border-radius: 20rem;
+}
+body main {
+  display: flex;
+  margin: 0;
+}
+@media only screen and (max-width: 800px) {
+  body main {
+    display: flex;
+    flex-direction: column;
+  }
+}
+@media only screen and (max-width: 500px) {
+  body .container {
+    margin: 2rem 0 2rem -0.6rem;
+    width: 90%;
+    padding: 1.4rem;
+    text-align: center;
+  }
+  body .container h1,
+body .container h2 {
+    margin: 0 0 1.2rem 0;
+    -webkit-text-decoration-color: red;
+            text-decoration-color: red;
+  }
+  body .container .headerLink {
+    margin: 1rem;
+    line-height: 50px;
+  }
+  body .container .headerLink a {
+    padding: 1rem;
+    margin: 2rem;
+    line-height: 80px;
+  }
+  body body {
+    margin: 0;
+  }
+}
+body footer .ml12 {
+  font-weight: 200;
+  font-size: 1.8em;
+  text-transform: uppercase;
+  letter-spacing: 0.5em;
+}
+body footer .ml12 .letter {
+  display: inline-block;
+  line-height: 1em;
+}
+
+figure p {
+  font-weight: bold;
+  font-size: 1.6rem;
+}/*# sourceMappingURL=style.css.map */
